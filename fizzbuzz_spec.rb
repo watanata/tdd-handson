@@ -10,5 +10,11 @@ describe FizzBuzz do
         expect(subject.fizzbuzz(7)).to eq '7'
       end
     end
+
+    context 'returns Fizz when arg is multiples of 3' do
+      it 'returns Fizz when arg is 3' do
+        expect(subject.fizzbuzz(3)).to eq 'Fizz'
+      end
+    end
   end
 end
