@@ -15,6 +15,9 @@ describe FizzBuzz do
       it 'returns Fizz when arg is 3' do
         expect(subject.fizzbuzz(3)).to eq 'Fizz'
       end
+      it 'returns Fizz when arg is 6' do
+        expect(subject.fizzbuzz(6)).to eq 'Fizz'
+      end
     end
   end
 end
