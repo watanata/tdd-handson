@@ -1,8 +1,9 @@
 class FizzBuzz
   def fizzbuzz(number)
-    return 'Fizz' if (number % 3).zero?
-    return 'Buzz' if (number % 5).zero?
+    ret = ''
+    (number % 3).zero? && ret = 'Fizz'
+    (number % 5).zero? && ret += 'Buzz'
 
-    number.to_s
+    ret.empty? ? number.to_s : ret
   end
 end
