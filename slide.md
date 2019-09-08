@@ -122,7 +122,7 @@
 
 ```ruby
 str = ''
-[1..100].each do |i|
+(1..100).each do |i|
   str += fizzbuzz(i)
 end
 ```
