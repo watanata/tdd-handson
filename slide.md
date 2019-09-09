@@ -138,3 +138,9 @@ end
 * 3と5の倍数を受け取ったら'FizzBuzz'を返す
 * それ以外を受け取ったらそのまま返す
 
+---
+
+## 演習
+
+https://gist.github.com/twada/72104bf28cae1f83ad7e8e1c9414299a
+
